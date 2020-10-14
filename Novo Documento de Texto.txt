@@ -2,3 +2,7 @@ Abaxi
 cpcp
 coco
 cloroqunia
+
+for(int j = 0 ;J<4;j++){
+Syso
+}
