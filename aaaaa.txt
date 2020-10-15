@@ -1,3 +1,4 @@
 Syso
-while(){
+function value(){
+ let varivavel = 'Katarina';
 }
