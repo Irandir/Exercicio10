@@ -1,4 +1,6 @@
 Syso
-function value(let numver){
- let varivavel = 'Katarina22';
+
+function value(){
+ let varivavel = 'Cristina';
+
 }
