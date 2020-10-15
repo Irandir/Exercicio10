@@ -1,0 +1,69 @@
+git --config //altera o email
+
+git add . // adicinar na staged altera
+
+git diff // mostra alterações
+
+git diff --staged//mostra as alterações no staged area
+
+git status //mostra o nome dos arquivos alterados(statos)
+
+git commit -a -m "nome" //cometa arquivos junto com staged altera
+
+git commit -m "nome"// commit normal
+
+gitk //mostra todas alteraçoes do commit visualmente dos commit
+
+clear// apagar prompt
+
+cd "arquivo" //entrar
+
+cd .. //sair
+
+git log // todos os commit (nome,autor,chave,data)
+
+git log --pretty=oneline //mostra todas os commit (apenas a chave)
+
+git log -p // mostra todas alteraçoes de todos os commit
+
+git log -p -1(ou outros valores) // mostra alguns commit  
+
+git commit --amend -m "teste" // alter/edita o ultimo commit sem cria um novo
+
+git init //inicio o git no diretorio
+
+git clone (local do arquivo) //clona arquivo
+
+git reset HEAD nome_do_arquivo.tipo // retira o arquivo da staged area
+
+git checkout --nome.tipo //descarta alterções no arquivo
+
+git rm nome.tipo //deleta arquivo
+
+git tag //mostra todos as tag
+
+git tag -a v1.0(Numero da versao editvel) -m 'mensagem'// cria nova tag
+
+git tag -a v0.0(Numero da versao editvel) nome_da_chavve do commit -m "nome da versao"// cria nova tag a parti de um commit
+
+git show numero_da_tag //informações da tag
+
+git checkout v0.0(editavel)// troca a versao do projeto
+
+git checkout master//volta para o master
+
+git tag -d v0.0//deleta tag
+
+git branch nome// cria um novo branch(serve como versao EX: software para o cliente tem um branch e outro branch para fazer test3)
+
+git checkout -b nome//cria novo branch e já troca para ele
+
+git merge nome_do_branch // adiciona as alterções do branch para branch atual
+
+git branch //lista todos os branch
+
+git branch -d nome_do_branch //apagar branch
+
+
+
+
